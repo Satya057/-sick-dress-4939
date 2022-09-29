@@ -1,0 +1,125 @@
+
+.mainbody{
+    width: 100%;
+    height: max-content;
+    background-color: #eeeeee;
+}
+.Topimg{
+    height: 250px;
+    width: 100%;
+    background-image: url("https://static.naukimg.com/s/5/105/i/dashboardbg.png");
+}
+.boxes{
+    height: 100%;
+    width: 64%;
+    margin: auto;
+    margin-top: -200px;
+    /* border: 1px solid red; */
+    
+}
+.searchjob{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.contentBoxes{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    height: max-content;
+    width: 64%;
+    /* border: 1px solid blue; */
+}
+.box2{
+    height: max-content;
+    width: 34%;
+    /* border: 1px solid black; */
+    display: grid;
+}
+
+/*  Search box  */
+.search{
+    width: 100%;
+    height: 190px;
+    /* border: 1px solid red; */
+}
+.search > div{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+.search > div > input{
+    height: 100%;
+    width: 80%;
+    padding: 15px;
+    font-size: 13px;
+}
+.search > div > input:focus{
+    outline: none;
+}
+.search > div > button{
+    height: 100%;
+    width: 20%;
+    background-color: #4a90e2;
+    color: #f3f8fd;
+    font-weight: 500;
+}
+
+
+
+@media all and (min-width:401px) and (max-width:721px) {
+    .boxes{
+        height: 100%;
+        width: 100%;
+        margin-top: -100px;
+        /* border: 1px solid red; */
+        
+    }
+    .contentBoxes{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        /* justify-content: space-between; */
+    }
+    .search{
+        width: 100%;
+        height: 190px;
+        /* border: 1px solid red; */
+    }
+    .search > div > button{
+        height: 100%;
+        width: 20%;
+        background-color: #4a90e2;
+        color: #f3f8fd;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .box1{
+        height: max-content;
+        width: 100%;
+        /* border: 1px solid blue; */
+        
+    }
+    .box2{
+        width: 100%;
+        /* display: none; */
+    }
+    .reruiter{
+        display: none;
+    }
+    .faq{
+        display: none;
+    }
+    .question{
+        display: none;
+    }
+    .hirirngDiv{
+        /* display: none; */
+        overflow: hidden;
+        
+    }
+    
+}
